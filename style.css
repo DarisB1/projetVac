@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');     
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+.secStartGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #F0F0F0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.divH1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #FF5959;
+    font-weight: bold;
+    text-shadow: 2px 2px #C0C0C0;
+}
+
+img {
+    width: 10%;
+}
+
+.divTotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid rgb(48, 48, 48);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.divScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(48, 48, 48);
+    border-radius: 8px;
+    padding: 3px;
+    width: 100%;
+}
+
+.pScore {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #5d7d95;
+    padding: 10px 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.spanScore {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.spanTemps {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 1rem;
+}
+
+.btnStart {
+    color: white;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.divInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.info {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF5959;
+}
+
+.secGame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20%;
+}
+
+.game {
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF5959;
+    
+}
+
+.spanNum1, .spanNum2  {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.btnValid {
+    background-color: rgb(2, 227, 2);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.secScoreGame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F0F0F0;
+}
+
+.resultGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.pRes {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    background-color: #5d7d95;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+.spanScoreGame {
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.btnQuit {
+    color: white;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* section score */
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 12px;
+}

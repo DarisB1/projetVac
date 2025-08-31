@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>projetVac</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="secStartGame">
+            <div class="divH1">
+                <h1>Dr.Kawashima</h1>
+                <img src="./img/DrKawashima.png" alt="Dr">
+            </div>
+            <div class="tableauScore"></div>
+            <button class="btnStart">Start</button>
+        </section>
+            <div class="divInfo">
+                <p class="info"><span id="quest">0</span>/<span>20</span></p>
+                <p class="info"><span id="min">0</span>:<span id="sec">0</span></p>
+
+            </div>
+        <section class="secGame">
+                <p class="game"><span class="spanNum1">0</span>+<span class="spanNum2">0</span></p>
+                <input type="number" name="result" id="result">
+                <button class="btnValid" id="valider">Valider</button>
+        </section>
+        <section class="secScoreGame">
+            <div class="resultGame">
+                <p class="pRes">Résultat</p>
+                <span class="spanScoreGame">15pts 1min30s</span>
+            </div>
+            <button class="btnQuit">Quitter</button>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
