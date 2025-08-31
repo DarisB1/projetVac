@@ -160,36 +160,3 @@ function createText(classe="", id="", type, text){
     element.textContent = text
     return element
 }
-
-    // const divTotal = createContainer("divTotal", "", "div");
-
-    // const firstScore = createContainer("divScore", "", "div");
-    // const pScore1 = createText("pScore", "", "p", "N°1");
-    // const spanScore1 = createText("spanScore", "", "span", `${score}pts`);
-    // const spanTemps1 = createText("spanTemps", "", "span", `${min}min${sec}s`);
-    // const secondScore = createContainer("divScore", "", "div");
-    // const pScore2 = createText("pScore", "", "p", "N°2");
-    // const spanScore2 = createText("spanScore", "", "span", `${score}pts`);
-    // const spanTemps2 = createText("spanTemps", "", "span", `${min}min${sec}s`);
-    // const lastScore = createContainer("divScore", "", "div");
-    // const pScore3 = createText("pScore", "", "p", "N°3");
-    // const spanScore3 = createText("spanScore", "", "span", `${score}pts`);
-    // const spanTemps3 = createText("spanTemps", "", "span", `${min}min${sec}s`);
-
-
-    // divTotal.appendChild(firstScore);
-    // firstScore.appendChild(pScore1);
-    // firstScore.appendChild(spanScore1);
-    // firstScore.appendChild(spanTemps1);
-
-    // divTotal.appendChild(secondScore);
-    // secondScore.appendChild(pScore2);
-    // secondScore.appendChild(spanScore2);
-    // secondScore.appendChild(spanTemps2);
-
-    // divTotal.appendChild(lastScore);
-    // lastScore.appendChild(pScore3);
-    // lastScore.appendChild(spanScore3);
-    // lastScore.appendChild(spanTemps3);
-
-    // tableauScore.appendChild(divTotal);
